@@ -4,8 +4,8 @@ from Funciones import *
 
 def UsuarioCuenta():
 
-    nombreTarjeta="pipito1234"
-    pincuenta=1234
+    nombreTarjeta="15062003-1100" #tarjeta numero (indicador)
+    pincuenta=1234    #el pin de la tarjeta para validar el programa
     nombre=input("Digite el nombre de la cuenta: ")
     pin=int(input("Digite su ping de cuenta: "))
     if(nombreTarjeta==nombre and pin==pincuenta):
@@ -18,11 +18,9 @@ def UsuarioCuenta():
 def Deposito():
     depos=int(input("Digite el valor a ser depositado: "))
     depositoCuenta(depos)
-    print(valor)
 def RetirodeDinero():
     reti=int(input("Digite el valor a retirar: "))
     retiroCuenta(reti)
-    print(reti)
 
 
 def menu():

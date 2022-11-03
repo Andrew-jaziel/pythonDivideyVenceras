@@ -28,7 +28,7 @@ def retiroCuenta(retiro):
 
 def mostrarCuenta():
     global valor
-    print( valor )
+    print( "el saldo de la cuenta es de: ",valor )
 
 
  
