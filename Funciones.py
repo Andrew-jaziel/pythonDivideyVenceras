@@ -7,18 +7,19 @@ def depositoCuenta(deposito):
     if(deposito%100==0):
         valor=valor+deposito
  
-        return valor
     else:
         print("error en el deposito")
+    return valor
 
 def retiroCuenta(retiro):
     global valor
    
     if(retiro%100==0):
         valor=valor-retiro
-        return valor 
+     
     else:
         print("error al retirar dinero en la cuenta")
+    return valor 
 
 def mostrarCuenta():
     global valor

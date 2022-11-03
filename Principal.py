@@ -9,7 +9,6 @@ def UsuarioCuenta():
     nombre=input("Digite el nombre de la cuenta: ")
     pin=int(input("Digite su ping de cuenta: "))
     if(nombreTarjeta==nombre and pin==pincuenta):
-        print("digito de manera correcta")
         return True
     else:
         print("datos mal indicado")
@@ -18,10 +17,13 @@ def UsuarioCuenta():
 def Deposito():
     depos=int(input("Digite el valor a ser depositado: "))
     depositoCuenta(depos)
+    print("el valor de: ",depos)
+    
+ 
 def RetirodeDinero():
     reti=int(input("Digite el valor a retirar: "))
     retiroCuenta(reti)
-
+    print("el valor de : ",reti)
 
 def menu():
             print("1. Depositar dinero: ")
