@@ -45,6 +45,6 @@ def main():
 
 
     else:
-        print("digite bien su mierda")
+        print("Error")
 
 main()

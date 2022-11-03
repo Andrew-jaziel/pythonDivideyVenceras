@@ -11,8 +11,6 @@ def depositoCuenta(deposito):
     else:
         print("error en el deposito")
 
-
-
 def retiroCuenta(retiro):
     global valor
    
@@ -21,10 +19,6 @@ def retiroCuenta(retiro):
         return valor 
     else:
         print("error al retirar dinero en la cuenta")
-
- 
-
-
 
 def mostrarCuenta():
     global valor
